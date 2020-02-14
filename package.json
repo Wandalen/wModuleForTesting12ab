@@ -1,0 +1,51 @@
+{
+  "name": "wmodulefortesting12ab",
+  "version": "0.0.1",
+  "engine": "node >= 8.0.0",
+  "description": "Module for testing. This module is test assets not intended to be used with another purpose.",
+  "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Kostiantyn Wandalen",
+      "email": "wanalen@willbe.so"
+    },
+    {
+      "name": "Kryvoruchko Dmytro",
+      "email": "dm.vict.kr@gmail.com"
+    }
+  ],
+  "main": "proto/dwtools/abase/l3/Include.s",
+  "files": [
+    "proto/dwtools/abase/l3",
+    "out"
+  ],
+  "scripts": {
+    "test": "wtest .run proto/**",
+    "docgen": "wdocgen proto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wandalen/wModuleForTesting12ab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wandalen/wModuleForTesting12ab/issues"
+  },
+  "dependencies": {
+    "wmodulefortesting1": "",
+    "wmodulefortesting1a": "",
+    "wmodulefortesting1b": "",
+    "wmodulefortesting2": "",
+    "wmodulefortesting2a": "",
+    "wmodulefortesting2b": "",
+    "wmodulefortesting12": ""
+  },
+  "devDependencies": {
+    "wTesting": "^1.0.272",
+    "wmodulefortesting12": "file:."
+  },
+  "keywords": [
+    "willbe",
+    "test"
+  ]
+}
