@@ -27,6 +27,6 @@
     "wmodulefortesting2b": "",
     "wmodulefortesting12": ""
   }, 
-  "devDependencies" : { "wmodulefortesting12" : "file:.", "wTesting" : "" }, 
+  "devDependencies" : { "wmodulefortesting12ab" : "file:.", "wTesting" : "" }, 
   "keywords" : [ "willbe", "test" ]
 }

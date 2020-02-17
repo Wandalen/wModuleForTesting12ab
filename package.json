@@ -41,8 +41,8 @@
     "wmodulefortesting12": ""
   },
   "devDependencies": {
-    "wTesting": "^1.0.272",
-    "wmodulefortesting12": "file:."
+    "wTesting": "alpha",
+    "wmodulefortesting12ab": "file:."
   },
   "keywords": [
     "willbe",
