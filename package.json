@@ -32,6 +32,6 @@
     "wmodulefortesting1a" : "alpha", 
     "wmodulefortesting12" : "alpha"
   }, 
-  "devDependencies" : { "wmodulefortesting12" : "file:.", "wTesting" : "alpha" }, 
+  "devDependencies" : { "wmodulefortesting12ab" : "file:.", "wTesting" : "alpha" }, 
   "keywords" : [ "willbe", "test" ]
 }
