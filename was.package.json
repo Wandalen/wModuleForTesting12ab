@@ -10,8 +10,8 @@
     { "name" : "Kostiantyn Wandalen", "email" : "wanalen@willbe.so" }, 
     { "name" : "Kryvoruchko Dmytro", "email" : "dm.vict.kr@gmail.com" }
   ], 
-  "main" : "proto/dwtools/abase/l3/Include.s", 
-  "files" : [ "proto/dwtools/abase/l3", "out" ], 
+  "main" : "proto/dwtools/abase/l4/Include.s", 
+  "files" : [ "proto/dwtools/abase/l4", "out" ], 
   "scripts" : { "test" : "wtest .run proto/**", "docgen" : "wdocgen proto" }, 
   "repository" : 
   {
