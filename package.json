@@ -1,51 +1,37 @@
 {
-  "name": "wmodulefortesting12ab",
-  "version": "0.0.4",
-  "engine": "node >= 8.0.0",
-  "description": "Module for testing. This module is test assets not intended to be used with another purpose.",
-  "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
-  "license": "MIT",
-  "contributors": [
-    {
-      "name": "Kostiantyn Wandalen",
-      "email": "wanalen@willbe.so"
-    },
-    {
-      "name": "Kryvoruchko Dmytro",
-      "email": "dm.vict.kr@gmail.com"
-    }
-  ],
-  "main": "proto/dwtools/abase/l4/Include.s",
-  "files": [
-    "proto/dwtools/abase/l4",
-    "out"
-  ],
-  "scripts": {
-    "test": "wtest .run proto/**",
-    "docgen": "wdocgen proto"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wandalen/wModuleForTesting12ab.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Wandalen/wModuleForTesting12ab/issues"
-  },
-  "dependencies": {
+  "name" : "wmodulefortesting12ab", 
+  "version" : "0.0.6", 
+  "engine" : "node >= 8.0.0", 
+  "description" : "Module for testing. This module is test assets not intended to be used with another purpose.", 
+  "author" : "Kostiantyn Wandalen <wanalen@willbe.so>", 
+  "license" : "MIT", 
+  "contributors" : 
+  [
+    { "name" : "Kostiantyn Wandalen", "email" : "wanalen@willbe.so" }, 
+    { "name" : "Kryvoruchko Dmytro", "email" : "dm.vict.kr@gmail.com" }
+  ], 
+  "main" : "proto/dwtools/abase/l4/Include.s", 
+  "files" : [ "proto/dwtools/abase/l4", "out" ], 
+  "scripts" : { "test" : "wtest .run proto/**", "docgen" : "wdocgen proto" }, 
+  "repository" : 
+  {
+    "type" : "git", 
+    "url" : "https://github.com/Wandalen/wModuleForTesting12ab.git"
+  }, 
+  "bugs" : 
+  {
+    "url" : "https://github.com/Wandalen/wModuleForTesting12ab/issues"
+  }, 
+  "dependencies" : 
+  {
     "wmodulefortesting1b" : "", 
-    "wmodulefortesting2": "",
-    "wmodulefortesting2a": "",
-    "wmodulefortesting2b": "",
-    "wmodulefortesting1": "alpha",
-    "wmodulefortesting1a": "alpha",
-    "wmodulefortesting12": "alpha"
-  },
-  "devDependencies": {
-    "wmodulefortesting12ab": "file:.",
-    "wTesting": "alpha"
-  },
-  "keywords": [
-    "willbe",
-    "test"
-  ]
+    "wmodulefortesting1" : "alpha", 
+    "wmodulefortesting1a" : "alpha", 
+    "wmodulefortesting2" : "alpha", 
+    "wmodulefortesting2a" : "alpha", 
+    "wmodulefortesting2b" : "alpha", 
+    "wmodulefortesting12" : "alpha"
+  }, 
+  "devDependencies" : { "wmodulefortesting12ab" : "file:.", "wTesting" : "alpha" }, 
+  "keywords" : [ "willbe", "test" ]
 }
