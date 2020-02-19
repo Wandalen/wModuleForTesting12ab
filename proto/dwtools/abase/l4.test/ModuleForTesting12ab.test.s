@@ -5,7 +5,7 @@
 if( typeof module !== 'undefined' )
 {
 
-  var _ = require( '../l3/Include.s' );
+  var _ = require( '../l4/Include.s' );
 
   require( 'wTesting' );
 
@@ -20,6 +20,7 @@ if( typeof module !== 'undefined' )
 function trivial( test ) 
 {
   test.case = 'square of positive numbers';
+  debugger;
   var got = _.sumOfAll( 4, 4 );
   test.identical( got, 352.8284271247462 );
 
@@ -39,7 +40,7 @@ function trivial( test )
 var Self =
 {
 
-  name : 'Tools.base.l3.ModuleForTesting12ab',
+  name : 'Tools.base.l4.ModuleForTesting12ab',
   silencing : 1,
 
   tests :
