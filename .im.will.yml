@@ -1,8 +1,5 @@
 submodule :
 
-  wTools :
-    path : npm:///wTools
-    enabled : 0
   wModuleForTesting1 :
     path : npm:///wmodulefortesting1
     enabled : 0
@@ -24,11 +21,11 @@ submodule :
   wModuleForTesting12 :
     path : npm:///wmodulefortesting12
     enabled : 0
-  Self :
-   path : hd://.
-   enabled : 0
-   criterion :
-     development : 1
+  # Self :
+  #  path : hd://.
+  #  enabled : 0
+  #  criterion :
+  #    development : 1
   wTesting :
     path : npm:///wTesting
     enabled : 0
