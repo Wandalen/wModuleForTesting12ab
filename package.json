@@ -1,37 +1,37 @@
 {
-  "name" : "wmodulefortesting12ab", 
-  "version" : "0.0.35", 
-  "engine" : "node >= 8.0.0", 
-  "description" : "Module for testing. This module is test assets not intended to be used with another purpose.", 
-  "author" : "Kostiantyn Wandalen <wanalen@willbe.so>", 
-  "license" : "MIT", 
-  "contributors" : 
+  "name" : "wmodulefortesting12ab",
+  "version" : "0.0.36",
+  "engine" : "node >= 8.0.0",
+  "description" : "Module for testing. This module is test assets not intended to be used with another purpose.",
+  "author" : "Kostiantyn Wandalen <wanalen@willbe.so>",
+  "license" : "MIT",
+  "contributors" :
   [
-    { "name" : "Kostiantyn Wandalen", "email" : "wanalen@willbe.so" }, 
+    { "name" : "Kostiantyn Wandalen", "email" : "wanalen@willbe.so" },
     { "name" : "Kryvoruchko Dmytro", "email" : "dm.vict.kr@gmail.com" }
-  ], 
-  "main" : "proto/dwtools/abase/l4/Include.s", 
-  "files" : [ "proto/dwtools/abase/l4", "out" ], 
-  "scripts" : { "test" : "wtest .run proto/**", "docgen" : "wdocgen proto" }, 
-  "repository" : 
+  ],
+  "main" : "proto/dwtools/abase/l4/Include.s",
+  "files" : [ "proto/dwtools/abase/l4", "out" ],
+  "scripts" : { "test" : "wtest .run proto/**", "docgen" : "wdocgen proto" },
+  "repository" :
   {
-    "type" : "git", 
+    "type" : "git",
     "url" : "https://github.com/Wandalen/wModuleForTesting12ab.git"
-  }, 
-  "bugs" : 
+  },
+  "bugs" :
   {
     "url" : "https://github.com/Wandalen/wModuleForTesting12ab/issues"
-  }, 
-  "dependencies" : 
+  },
+  "dependencies" :
   {
-    "wmodulefortesting1" : "alpha", 
-    "wmodulefortesting1a" : "alpha", 
-    "wmodulefortesting1b" : "alpha", 
-    "wmodulefortesting2" : "alpha", 
-    "wmodulefortesting2a" : "alpha", 
-    "wmodulefortesting2b" : "alpha", 
-    "wmodulefortesting12" : "alpha"
-  }, 
-  "devDependencies" : { "wmodulefortesting12ab" : "file:.", "wTesting" : "alpha" }, 
+    "wmodulefortesting1" : "gamma",
+    "wmodulefortesting1a" : "gamma",
+    "wmodulefortesting1b" : "gamma",
+    "wmodulefortesting2" : "gamma",
+    "wmodulefortesting2a" : "gamma",
+    "wmodulefortesting2b" : "gamma",
+    "wmodulefortesting12" : "gamma"
+  },
+  "devDependencies" : { "wmodulefortesting12ab" : "file:.", "wTesting" : "gamma" },
   "keywords" : [ "willbe", "test" ]
 }
