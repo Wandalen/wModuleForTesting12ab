@@ -1,6 +1,6 @@
 {
   "name" : "wmodulefortesting12ab",
-  "version" : "0.0.37",
+  "version" : "0.0.38",
   "engine" : "node >= 8.0.0",
   "description" : "Module for testing. This module is test assets not intended to be used with another purpose.",
   "author" : "Kostiantyn Wandalen <wanalen@willbe.so>",
@@ -24,14 +24,14 @@
   },
   "dependencies" :
   {
-    "wmodulefortesting1" : "beta",
-    "wmodulefortesting1a" : "beta",
-    "wmodulefortesting1b" : "beta",
-    "wmodulefortesting2" : "beta",
-    "wmodulefortesting2a" : "beta",
-    "wmodulefortesting2b" : "beta",
-    "wmodulefortesting12" : "beta"
+    "wmodulefortesting1" : "alpha",
+    "wmodulefortesting1a" : "alpha",
+    "wmodulefortesting1b" : "alpha",
+    "wmodulefortesting2" : "alpha",
+    "wmodulefortesting2a" : "alpha",
+    "wmodulefortesting2b" : "alpha",
+    "wmodulefortesting12" : "alpha"
   },
-  "devDependencies" : { "wmodulefortesting12ab" : "file:.", "wTesting" : "beta" },
+  "devDependencies" : { "wmodulefortesting12ab" : "file:.", "wTesting" : "alpha" },
   "keywords" : [ "willbe", "test" ]
 }
