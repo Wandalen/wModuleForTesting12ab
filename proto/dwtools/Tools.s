@@ -1,10 +1,11 @@
 
 if( typeof module !== 'undefined' )
 {
+  let Self;
 
   if( typeof _global_ === 'undefined' || !Object.hasOwnProperty.call( _global_, 'wBase' ) )
   {
-    let toolsPath = './abase/Layer1.s';
+    let toolsPath = './abase/l1/testing1/Include.s';
     let toolsExternal = 0;
     try
     {
@@ -13,12 +14,12 @@ if( typeof module !== 'undefined' )
     catch( err )
     {
       toolsExternal = 1;
-      require( 'wTools' );
+      Self = require( 'wmodulefortesting1' );
     }
     if( !toolsExternal )
-    require( toolsPath );
+    Self = require( toolsPath );
   }
 
-  module[ 'exports' ] = _global_.wTools;
+  module[ 'exports' ] = Self;
 
 }
