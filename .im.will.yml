@@ -71,7 +71,7 @@ path :
       content : prime
 
   entry.proto.no.tests :
-    path : proto/dwtools/abase/l4/Include.s
+    path : proto/dwtools/abase/l4/testing12ab/Include.s
     criterion :
       tests : 'no.tests'
   entry.proto.only.tests :
@@ -83,7 +83,7 @@ path :
   # npm.files : proto
 
   entry.out.raw.debug :
-    path : '{path::out.*=1}/proto/dwtools/abase/l4/Include.s'
+    path : '{path::out.*=1}/proto/dwtools/abase/l4/testing12ab/Include.s'
     criterion :
       debug : [ debug, release ]
       raw : raw
