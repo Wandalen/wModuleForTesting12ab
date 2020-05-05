@@ -1,34 +1,31 @@
 submodule :
 
-  wTools :
-    path : npm:///wTools
-    enabled : 0
   wModuleForTesting1 :
-    path : npm:///wmodulefortesting1
+    path : npm:///wmodulefortesting1@gamma
     enabled : 0
   wModuleForTesting1a :
-    path : npm:///wmodulefortesting1a
+    path : npm:///wmodulefortesting1a@gamma
     enabled : 0
   wModuleForTesting1b :
-    path : npm:///wmodulefortesting1b
+    path : npm:///wmodulefortesting1b@gamma
     enabled : 0
   wModuleForTesting2 :
-    path : npm:///wmodulefortesting2
+    path : npm:///wmodulefortesting2@gamma
     enabled : 0
   wModuleForTesting2a :
-    path : npm:///wmodulefortesting2a
+    path : npm:///wmodulefortesting2a@gamma
     enabled : 0
   wModuleForTesting2b :
-    path : npm:///wmodulefortesting2b
+    path : npm:///wmodulefortesting2b@gamma
     enabled : 0
   wModuleForTesting12 :
-    path : npm:///wmodulefortesting12
+    path : npm:///wmodulefortesting12@gamma
     enabled : 0
-  Self :
-   path : hd://.
-   enabled : 0
-   criterion :
-     development : 1
+  # Self :
+  #  path : hd://.
+  #  enabled : 0
+  #  criterion :
+  #    development : 1
   wTesting :
     path : npm:///wTesting
     enabled : 0
@@ -74,7 +71,7 @@ path :
       content : prime
 
   entry.proto.no.tests :
-    path : proto/dwtools/abase/l4/Include.s
+    path : proto/dwtools/abase/l4/testing12ab/Include.s
     criterion :
       tests : 'no.tests'
   entry.proto.only.tests :
@@ -86,7 +83,7 @@ path :
   # npm.files : proto
 
   entry.out.raw.debug :
-    path : '{path::out.*=1}/proto/dwtools/abase/l4/Include.s'
+    path : '{path::out.*=1}/proto/dwtools/abase/l4/testing12ab/Include.s'
     criterion :
       debug : [ debug, release ]
       raw : raw

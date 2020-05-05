@@ -5,7 +5,7 @@
 if( typeof module !== 'undefined' )
 {
 
-  var _ = require( '../l4/Include.s' );
+  var _ = require( '../l4/testing12ab/Include.s' );
 
   require( 'wTesting' );
 
@@ -17,10 +17,9 @@ if( typeof module !== 'undefined' )
 // test
 // --
 
-function trivial( test ) 
+function trivial( test )
 {
   test.case = 'square of positive numbers';
-  debugger;
   var got = _.sumOfAll( 4, 4 );
   test.identical( got, 352.8284271247462 );
 
