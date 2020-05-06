@@ -6,8 +6,8 @@ consistency:
     hash: 75d1cd213a541749bdc994c1071aef7e
     size: 1873
   ../.im.will.yml: &ref_1
-    hash: a23c33aa1bd4ac755c19137ba582cba6
-    size: 5453
+    hash: a9d413d018efc6ca8d2a77a71bfaa8cf
+    size: 5445
 module:
   wModuleForTesting12ab.out:
     about:
@@ -165,35 +165,35 @@ module:
           - ../proto/dwtools/abase/l4.test
           - ../proto/dwtools/abase/l4.test/ModuleForTesting12ab.test.s
     submodule:
-      wModuleForTesting1:
+      ModuleForTesting1:
         path: 'npm:///wmodulefortesting1@gamma'
         autoExporting: 0
         enabled: 0
-      wModuleForTesting1a:
+      ModuleForTesting1a:
         path: 'npm:///wmodulefortesting1a@gamma'
         autoExporting: 0
         enabled: 0
-      wModuleForTesting1b:
+      ModuleForTesting1b:
         path: 'npm:///wmodulefortesting1b@gamma'
         autoExporting: 0
         enabled: 0
-      wModuleForTesting2:
+      ModuleForTesting2:
         path: 'npm:///wmodulefortesting2@gamma'
         autoExporting: 0
         enabled: 0
-      wModuleForTesting2a:
+      ModuleForTesting2a:
         path: 'npm:///wmodulefortesting2a@gamma'
         autoExporting: 0
         enabled: 0
-      wModuleForTesting2b:
+      ModuleForTesting2b:
         path: 'npm:///wmodulefortesting2b@gamma'
         autoExporting: 0
         enabled: 0
-      wModuleForTesting12:
+      ModuleForTesting12:
         path: 'npm:///wmodulefortesting12@gamma'
         autoExporting: 0
         enabled: 0
-      wTesting:
+      Testing:
         path: 'npm:///wTesting'
         autoExporting: 0
         enabled: 0
@@ -940,35 +940,35 @@ module:
           content: prime
         path: '{path::out.*=}/source/Index.s'
     submodule:
-      wModuleForTesting1:
+      ModuleForTesting1:
         path: 'npm:///wmodulefortesting1@gamma'
         autoExporting: 0
         enabled: 0
-      wModuleForTesting1a:
+      ModuleForTesting1a:
         path: 'npm:///wmodulefortesting1a@gamma'
         autoExporting: 0
         enabled: 0
-      wModuleForTesting1b:
+      ModuleForTesting1b:
         path: 'npm:///wmodulefortesting1b@gamma'
         autoExporting: 0
         enabled: 0
-      wModuleForTesting2:
+      ModuleForTesting2:
         path: 'npm:///wmodulefortesting2@gamma'
         autoExporting: 0
         enabled: 0
-      wModuleForTesting2a:
+      ModuleForTesting2a:
         path: 'npm:///wmodulefortesting2a@gamma'
         autoExporting: 0
         enabled: 0
-      wModuleForTesting2b:
+      ModuleForTesting2b:
         path: 'npm:///wmodulefortesting2b@gamma'
         autoExporting: 0
         enabled: 0
-      wModuleForTesting12:
+      ModuleForTesting12:
         path: 'npm:///wmodulefortesting12@gamma'
         autoExporting: 0
         enabled: 0
-      wTesting:
+      Testing:
         path: 'npm:///wTesting'
         autoExporting: 0
         enabled: 0
@@ -1527,5 +1527,5 @@ module:
         hash: 75d1cd213a541749bdc994c1071aef7e
         size: 1873
       ../.im.will.yml:
-        hash: a23c33aa1bd4ac755c19137ba582cba6
-        size: 5453
+        hash: a9d413d018efc6ca8d2a77a71bfaa8cf
+        size: 5445
