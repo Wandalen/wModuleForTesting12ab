@@ -2,15 +2,12 @@ format: outwillfile-2.0
 root:
   - wModuleForTesting12ab.out
 consistency:
-  wModuleForTesting12ab.out.will.yml: &ref_0
-    hash: 7e181cf8fc0b1a441d5cd9185af4b892
-    size: 39874
-  ../.ex.will.yml: &ref_1
+  ../.ex.will.yml: &ref_0
     hash: 75d1cd213a541749bdc994c1071aef7e
     size: 1873
-  ../.im.will.yml: &ref_2
-    hash: 80e605a2849792e2b49bf449c2c72371
-    size: 5429
+  ../.im.will.yml: &ref_1
+    hash: a23c33aa1bd4ac755c19137ba582cba6
+    size: 5453
 module:
   wModuleForTesting12ab.out:
     about:
@@ -21,20 +18,20 @@ module:
         with another purpose.
       enabled: 1
       version: 0.0.1
-      interpreters:
+      interpreters: &ref_2
         - njs >= 8.0.0
         - chrome >= 60.0.0
         - firefox >= 60.0.0
-      keywords:
+      keywords: &ref_3
         - willbe
         - test
       license: MIT
       author: Kostiantyn Wandalen <wanalen@willbe.so>
-      contributors:
+      contributors: &ref_4
         - Kostiantyn Wandalen <wanalen@willbe.so>
         - Kryvoruchko Dmytro <dm.vict.kr@gmail.com>
       npm.name: wmodulefortesting12ab
-      npm.scripts:
+      npm.scripts: &ref_5
         test: wtest .run proto/**
         docgen: wdocgen .build proto
     path:
@@ -116,7 +113,7 @@ module:
       entry.proto.no.tests:
         criterion:
           tests: no.tests
-        path: ../proto/dwtools/abase/l4/Include.s
+        path: ../proto/dwtools/abase/l4/testing12ab/Include.s
       entry.proto.only.tests:
         criterion:
           tests: only.tests
@@ -126,13 +123,13 @@ module:
           debug: debug
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/abase/l4/Include.s'
+        path: '{path::out.*=1}/proto/dwtools/abase/l4/testing12ab/Include.s'
       entry.out.raw.debug.release:
         criterion:
           debug: release
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/abase/l4/Include.s'
+        path: '{path::out.*=1}/proto/dwtools/abase/l4/testing12ab/Include.s'
       entry.out.compiled.debug.debug:
         criterion:
           debug: debug
@@ -159,52 +156,43 @@ module:
         path:
           - ../proto
           - ../proto/dwtools
+          - ../proto/dwtools/Tools.s
           - ../proto/dwtools/abase
           - ../proto/dwtools/abase/l4
-          - ../proto/dwtools/abase/l4/Include.s
-          - ../proto/dwtools/abase/l4/l4
-          - ../proto/dwtools/abase/l4/l4/ModuleForTesting12ab.s
+          - ../proto/dwtools/abase/l4/testing12ab
+          - ../proto/dwtools/abase/l4/testing12ab/Include.s
+          - ../proto/dwtools/abase/l4/testing12ab/ModuleForTesting12ab.s
           - ../proto/dwtools/abase/l4.test
           - ../proto/dwtools/abase/l4.test/ModuleForTesting12ab.test.s
     submodule:
-      wTools:
-        path: 'npm:///wTools'
-        autoExporting: 0
-        enabled: 0
       wModuleForTesting1:
-        path: 'npm:///wmodulefortesting1'
+        path: 'npm:///wmodulefortesting1@gamma'
         autoExporting: 0
         enabled: 0
       wModuleForTesting1a:
-        path: 'npm:///wmodulefortesting1a'
+        path: 'npm:///wmodulefortesting1a@gamma'
         autoExporting: 0
         enabled: 0
       wModuleForTesting1b:
-        path: 'npm:///wmodulefortesting1b'
+        path: 'npm:///wmodulefortesting1b@gamma'
         autoExporting: 0
         enabled: 0
       wModuleForTesting2:
-        path: 'npm:///wmodulefortesting2'
+        path: 'npm:///wmodulefortesting2@gamma'
         autoExporting: 0
         enabled: 0
       wModuleForTesting2a:
-        path: 'npm:///wmodulefortesting2a'
+        path: 'npm:///wmodulefortesting2a@gamma'
         autoExporting: 0
         enabled: 0
       wModuleForTesting2b:
-        path: 'npm:///wmodulefortesting2b'
+        path: 'npm:///wmodulefortesting2b@gamma'
         autoExporting: 0
         enabled: 0
       wModuleForTesting12:
-        path: 'npm:///wmodulefortesting12'
+        path: 'npm:///wmodulefortesting12@gamma'
         autoExporting: 0
         enabled: 0
-      Self:
-        path: 'hd://..'
-        autoExporting: 0
-        enabled: 0
-        criterion:
-          development: 1
       wTesting:
         path: 'npm:///wTesting'
         autoExporting: 0
@@ -220,6 +208,7 @@ module:
         dst:
           prefixPath: ''
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: no.tests
           debug: debug
@@ -235,6 +224,7 @@ module:
         dst:
           prefixPath: ''
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: no.tests
           debug: release
@@ -250,6 +240,7 @@ module:
         dst:
           prefixPath: ''
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: no.tests
           debug: debug
@@ -265,6 +256,7 @@ module:
         dst:
           prefixPath: ''
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: no.tests
           debug: release
@@ -280,6 +272,7 @@ module:
         dst:
           prefixPath: ''
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           raw: raw
           debug: release
@@ -296,6 +289,7 @@ module:
         dst:
           prefixPath: ''
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: no.tests
           raw: compiled
@@ -313,6 +307,7 @@ module:
         dst:
           prefixPath: ''
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: no.tests
           raw: compiled
@@ -329,6 +324,7 @@ module:
         dst:
           prefixPath: ''
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: only.tests
           raw: compiled
@@ -345,6 +341,7 @@ module:
         dst:
           prefixPath: ''
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: only.tests
           raw: compiled
@@ -358,6 +355,7 @@ module:
             '**': ''
           prefixPath: ../proto
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           generated: 1
           content: proto
@@ -371,6 +369,7 @@ module:
           recursive: 0
         recursive: 0
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           generated: 1
           content: proto
@@ -726,24 +725,6 @@ module:
           content: prime
         inherit:
           - files.transpile
-      exported.proto.export:
-        opts:
-          reflector: 'reflector::exported.proto.export*'
-        criterion:
-          generated: 1
-          content: proto
-          export: 1
-        inherit:
-          - files.reflect
-      exported.files.proto.export:
-        opts:
-          reflector: 'reflector::exported.files.proto.export*'
-        criterion:
-          generated: 1
-          content: proto
-          export: 1
-        inherit:
-          - files.reflect
     build:
       proto.export:
         steps:
@@ -832,9 +813,8 @@ module:
           content: proto
           export: 1
     consistency:
-      wModuleForTesting12ab.out.will.yml: *ref_0
-      ../.ex.will.yml: *ref_1
-      ../.im.will.yml: *ref_2
+      ../.ex.will.yml: *ref_0
+      ../.im.will.yml: *ref_1
   ../:
     about:
       name: wModuleForTesting12ab
@@ -844,22 +824,13 @@ module:
         with another purpose.
       enabled: 1
       version: 0.0.1
-      interpreters:
-        - njs >= 8.0.0
-        - chrome >= 60.0.0
-        - firefox >= 60.0.0
-      keywords:
-        - willbe
-        - test
+      interpreters: *ref_2
+      keywords: *ref_3
       license: MIT
       author: Kostiantyn Wandalen <wanalen@willbe.so>
-      contributors:
-        - Kostiantyn Wandalen <wanalen@willbe.so>
-        - Kryvoruchko Dmytro <dm.vict.kr@gmail.com>
+      contributors: *ref_4
       npm.name: wmodulefortesting12ab
-      npm.scripts:
-        test: wtest .run proto/**
-        docgen: wdocgen .build proto
+      npm.scripts: *ref_5
     path:
       module.willfiles:
         criterion:
@@ -939,7 +910,7 @@ module:
       entry.proto.no.tests:
         criterion:
           tests: no.tests
-        path: proto/dwtools/abase/l4/Include.s
+        path: proto/dwtools/abase/l4/testing12ab/Include.s
       entry.proto.only.tests:
         criterion:
           tests: only.tests
@@ -949,13 +920,13 @@ module:
           debug: debug
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/abase/l4/Include.s'
+        path: '{path::out.*=1}/proto/dwtools/abase/l4/testing12ab/Include.s'
       entry.out.raw.debug.release:
         criterion:
           debug: release
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/dwtools/abase/l4/Include.s'
+        path: '{path::out.*=1}/proto/dwtools/abase/l4/testing12ab/Include.s'
       entry.out.compiled.debug.debug:
         criterion:
           debug: debug
@@ -969,44 +940,34 @@ module:
           content: prime
         path: '{path::out.*=}/source/Index.s'
     submodule:
-      wTools:
-        path: 'npm:///wTools'
-        autoExporting: 0
-        enabled: 0
       wModuleForTesting1:
-        path: 'npm:///wmodulefortesting1'
+        path: 'npm:///wmodulefortesting1@gamma'
         autoExporting: 0
         enabled: 0
       wModuleForTesting1a:
-        path: 'npm:///wmodulefortesting1a'
+        path: 'npm:///wmodulefortesting1a@gamma'
         autoExporting: 0
         enabled: 0
       wModuleForTesting1b:
-        path: 'npm:///wmodulefortesting1b'
+        path: 'npm:///wmodulefortesting1b@gamma'
         autoExporting: 0
         enabled: 0
       wModuleForTesting2:
-        path: 'npm:///wmodulefortesting2'
+        path: 'npm:///wmodulefortesting2@gamma'
         autoExporting: 0
         enabled: 0
       wModuleForTesting2a:
-        path: 'npm:///wmodulefortesting2a'
+        path: 'npm:///wmodulefortesting2a@gamma'
         autoExporting: 0
         enabled: 0
       wModuleForTesting2b:
-        path: 'npm:///wmodulefortesting2b'
+        path: 'npm:///wmodulefortesting2b@gamma'
         autoExporting: 0
         enabled: 0
       wModuleForTesting12:
-        path: 'npm:///wmodulefortesting12'
+        path: 'npm:///wmodulefortesting12@gamma'
         autoExporting: 0
         enabled: 0
-      Self:
-        path: 'hd://.'
-        autoExporting: 0
-        enabled: 0
-        criterion:
-          development: 1
       wTesting:
         path: 'npm:///wTesting'
         autoExporting: 0
@@ -1019,6 +980,7 @@ module:
           filePath:
             'path::proto': '{path::out.*=1}/source'
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: no.tests
           debug: debug
@@ -1031,6 +993,7 @@ module:
           filePath:
             'path::proto': '{path::out.*=1}/source'
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: no.tests
           debug: release
@@ -1043,6 +1006,7 @@ module:
           filePath:
             'path::proto': '{path::out.*=1}/source'
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: no.tests
           debug: debug
@@ -1055,6 +1019,7 @@ module:
           filePath:
             'path::proto': '{path::out.*=1}/source'
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: no.tests
           debug: release
@@ -1067,6 +1032,7 @@ module:
           filePath:
             'path::proto': '{path::out.raw.release}'
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           raw: raw
           debug: release
@@ -1080,6 +1046,7 @@ module:
             '**.test/**': 0
             'path::proto': '{path::out.*=1}/Main.s'
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: no.tests
           raw: compiled
@@ -1094,6 +1061,7 @@ module:
             '**.test/**': 0
             'path::proto': '{path::out.*=1}/Main.s'
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: no.tests
           raw: compiled
@@ -1107,6 +1075,7 @@ module:
             '**.test*': 1
             'path::proto': '{path::out.*=1}/Tests.test.s'
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: only.tests
           raw: compiled
@@ -1120,6 +1089,7 @@ module:
             '**.test*': 1
             'path::proto': '{path::out.*=1}/Tests.test.s'
         mandatory: 1
+        dstRewritingOnlyPreserving: 1
         criterion:
           tests: only.tests
           raw: compiled
@@ -1557,6 +1527,5 @@ module:
         hash: 75d1cd213a541749bdc994c1071aef7e
         size: 1873
       ../.im.will.yml:
-        hash: 80e605a2849792e2b49bf449c2c72371
-        size: 5429
-      wModuleForTesting12ab.out.will.yml: *ref_0
+        hash: a23c33aa1bd4ac755c19137ba582cba6
+        size: 5453
