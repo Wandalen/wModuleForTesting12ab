@@ -1,24 +1,24 @@
 submodule :
 
-  wModuleForTesting1 :
+  ModuleForTesting1 :
     path : npm:///wmodulefortesting1@gamma
     enabled : 0
-  wModuleForTesting1a :
+  ModuleForTesting1a :
     path : npm:///wmodulefortesting1a@gamma
     enabled : 0
-  wModuleForTesting1b :
+  ModuleForTesting1b :
     path : npm:///wmodulefortesting1b@gamma
     enabled : 0
-  wModuleForTesting2 :
+  ModuleForTesting2 :
     path : npm:///wmodulefortesting2@gamma
     enabled : 0
-  wModuleForTesting2a :
+  ModuleForTesting2a :
     path : npm:///wmodulefortesting2a@gamma
     enabled : 0
-  wModuleForTesting2b :
+  ModuleForTesting2b :
     path : npm:///wmodulefortesting2b@gamma
     enabled : 0
-  wModuleForTesting12 :
+  ModuleForTesting12 :
     path : npm:///wmodulefortesting12@gamma
     enabled : 0
   # Self :
@@ -26,7 +26,7 @@ submodule :
   #  enabled : 0
   #  criterion :
   #    development : 1
-  wTesting :
+  Testing :
     path : npm:///wTesting
     enabled : 0
     criterion :
