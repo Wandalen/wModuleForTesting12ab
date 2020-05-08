@@ -3,11 +3,11 @@
   "version" : "0.0.45",
   "engine" : "node >= 8.0.0",
   "description" : "Module for testing. This module is test assets not intended to be used with another purpose.",
-  "author" : "Kostiantyn Wandalen <wanalen@willbe.so>",
+  "author" : "Kostiantyn Wandalen <wanalen@01.school>",
   "license" : "MIT",
   "contributors" :
   [
-    { "name" : "Kostiantyn Wandalen", "email" : "wanalen@willbe.so" },
+    { "name" : "Kostiantyn Wandalen", "email" : "wanalen@01.school" },
     { "name" : "Kryvoruchko Dmytro", "email" : "dm.vict.kr@gmail.com" }
   ],
   "main" : "proto/dwtools/abase/l4/testing12ab/Include.s",
