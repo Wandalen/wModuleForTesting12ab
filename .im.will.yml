@@ -71,7 +71,7 @@ path :
       content : prime
 
   entry.proto.no.tests :
-    path : proto/dwtools/abase/l4/testing12ab/Include.s
+    path : proto/dwtools/testing/l4/testing12ab/Include.s
     criterion :
       tests : 'no.tests'
   entry.proto.only.tests :
@@ -79,11 +79,11 @@ path :
     criterion :
       tests : 'only.tests'
 
-  # npm.entry : proto/dwtools/abase/Layer2.s
+  # npm.entry : proto/dwtools/testing/Layer2.s
   # npm.files : proto
 
   entry.out.raw.debug :
-    path : '{path::out.*=1}/proto/dwtools/abase/l4/testing12ab/Include.s'
+    path : '{path::out.*=1}/proto/dwtools/testing/l4/testing12ab/Include.s'
     criterion :
       debug : [ debug, release ]
       raw : raw
