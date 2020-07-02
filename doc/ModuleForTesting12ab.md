@@ -2,7 +2,7 @@
 
 How to use routines of the module.
 
-Module for testing. This module is test assets not intended to be used with another purpose.
+Module for testing. This module is a test asset and not intended to be used with another purpose.
 
 ### Routines
 

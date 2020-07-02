@@ -2,7 +2,7 @@
 about :
 
   name : 'wModuleForTesting12ab'
-  description : 'Module for testing. This module is test assets not intended to be used with another purpose.'
+  description : 'Module for testing. This module is a test asset and not intended to be used with another purpose.'
   version : '0.0.1'
   enabled : 1
   interpreters :
