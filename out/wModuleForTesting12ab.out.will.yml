@@ -158,6 +158,7 @@ module:
           export: 1
         path:
           - ../proto
+          - ../proto/Integration.test.s
           - ../proto/dwtools
           - ../proto/dwtools/testing
           - ../proto/dwtools/testing/Basic.s
@@ -1523,6 +1524,4 @@ module:
       ../.im.will.yml:
         hash: e551b288b6d1f03acfa592d209eae78b
         size: 5451
-      wModuleForTesting12ab.out.will.yml:
-        hash: 00762b42fa47f613af529e1a0f6080a1
-        size: 39501
+      wModuleForTesting12ab.out.will.yml: *ref_0
