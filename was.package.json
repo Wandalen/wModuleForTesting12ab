@@ -10,8 +10,8 @@
     { "name" : "Kostiantyn Wandalen", "email" : "wanalen@01.school" },
     { "name" : "Kryvoruchko Dmytro", "email" : "dm.vict.kr@gmail.com" }
   ],
-  "main" : "proto/dwtools/testing/l4/testing12ab/Include.s",
-  "files" : [ "proto/dwtools/testing/l4/testing12ab", "proto/dwtools/testing/Basic.s", "out" ],
+  "main" : "proto/wtools/testing/l4/testing12ab/Include.s",
+  "files" : [ "proto/wtools/testing/l4/testing12ab", "proto/wtools/testing/Basic.s", "out" ],
   "scripts" : { "test" : "wtest .run 'proto/**' rapidity:-3", "docgen" : "wdocgen proto" },
   "repository" :
   {
