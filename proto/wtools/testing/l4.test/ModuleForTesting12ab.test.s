@@ -1,17 +1,15 @@
-( function _ModuleForTesting12ab_test_s_() {
+( function _ModuleForTesting12ab_test_s_()
+{
 
 'use strict';
 
 if( typeof module !== 'undefined' )
 {
-
-  let _ = require( '../l4/testing12ab/Include.s' );
-
+  require( '../l4/testing12ab/Include.s' );
   require( 'wTesting' );
-
 }
 
-
+let _ = _global_._test_;
 
 // --
 // test
