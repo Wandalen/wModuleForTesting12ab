@@ -2,15 +2,12 @@ format: outwillfile-2.0
 root:
   - wModuleForTesting12ab.out
 consistency:
-  wModuleForTesting12ab.out.will.yml: &ref_0
-    hash: ff8a3f23ac2667001f2d7b73a4c6c5ec
-    size: 39526
-  ../.ex.will.yml: &ref_1
+  ../.ex.will.yml: &ref_0
     hash: c78713b62b750cd33a5b0153e6579a30
     size: 1879
-  ../.im.will.yml: &ref_2
-    hash: 2902587253746a184ed85983ef5d40d3
-    size: 5448
+  ../.im.will.yml: &ref_1
+    hash: d2ddd984062aaf4883db4cc5d6fc04fb
+    size: 5550
 module:
   wModuleForTesting12ab.out:
     about:
@@ -21,20 +18,20 @@ module:
         used with another purpose.
       enabled: 1
       version: 0.0.1
-      interpreters:
+      interpreters: &ref_2
         - njs >= 10.0.0
         - chrome >= 60.0.0
         - firefox >= 60.0.0
-      keywords:
+      keywords: &ref_3
         - willbe
         - test
       license: MIT
       author: Kostiantyn Wandalen <wanalen@01.school>
-      contributors:
+      contributors: &ref_4
         - Kostiantyn Wandalen <wanalen@01.school>
         - Kryvoruchko Dmytro <dm.vict.kr@gmail.com>
       npm.name: wmodulefortesting12ab
-      npm.scripts:
+      npm.scripts: &ref_5
         test: wtest .run proto/**
         docgen: wdocgen .build proto
     path:
@@ -203,6 +200,12 @@ module:
         enabled: 0
         criterion:
           development: 1
+      eslint:
+        path: 'npm:///eslint#7.1.0'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          debug: 1
     reflector:
       reflect.proto.debug.raw:
         src:
@@ -710,24 +713,6 @@ module:
           content: prime
         inherit:
           - files.transpile
-      exported.proto.export:
-        opts:
-          filePath: 'reflector::exported.proto.export'
-        criterion:
-          generated: 1
-          content: proto
-          export: 1
-        inherit:
-          - files.reflect
-      exported.files.proto.export:
-        opts:
-          filePath: 'reflector::exported.files.proto.export'
-        criterion:
-          generated: 1
-          content: proto
-          export: 1
-        inherit:
-          - files.reflect
     build:
       proto.export:
         steps:
@@ -816,9 +801,8 @@ module:
           content: proto
           export: 1
     consistency:
-      wModuleForTesting12ab.out.will.yml: *ref_0
-      ../.ex.will.yml: *ref_1
-      ../.im.will.yml: *ref_2
+      ../.ex.will.yml: *ref_0
+      ../.im.will.yml: *ref_1
   ../:
     about:
       name: wModuleForTesting12ab
@@ -828,22 +812,13 @@ module:
         used with another purpose.
       enabled: 1
       version: 0.0.1
-      interpreters:
-        - njs >= 10.0.0
-        - chrome >= 60.0.0
-        - firefox >= 60.0.0
-      keywords:
-        - willbe
-        - test
+      interpreters: *ref_2
+      keywords: *ref_3
       license: MIT
       author: Kostiantyn Wandalen <wanalen@01.school>
-      contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
-        - Kryvoruchko Dmytro <dm.vict.kr@gmail.com>
+      contributors: *ref_4
       npm.name: wmodulefortesting12ab
-      npm.scripts:
-        test: wtest .run proto/**
-        docgen: wdocgen .build proto
+      npm.scripts: *ref_5
     path:
       module.willfiles:
         criterion:
@@ -987,6 +962,12 @@ module:
         enabled: 0
         criterion:
           development: 1
+      eslint:
+        path: 'npm:///eslint#7.1.0'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          debug: 1
     reflector:
       reflect.proto.debug.raw:
         src:
@@ -1522,6 +1503,5 @@ module:
         hash: c78713b62b750cd33a5b0153e6579a30
         size: 1879
       ../.im.will.yml:
-        hash: 2902587253746a184ed85983ef5d40d3
-        size: 5448
-      wModuleForTesting12ab.out.will.yml: *ref_0
+        hash: d2ddd984062aaf4883db4cc5d6fc04fb
+        size: 5550
