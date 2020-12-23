@@ -32,6 +32,6 @@
     "wmodulefortesting2b" : "",
     "wmodulefortesting12" : ""
   },
-  "devDependencies" : { "wmodulefortesting12ab" : "file:.", "wTesting" : "" },
+  "devDependencies" : { "wmodulefortesting12ab" : "file:.", "wTesting" : "", "eslint" : "7.1.0" },
   "keywords" : [ "willbe", "test" ]
 }
