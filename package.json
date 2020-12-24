@@ -1,6 +1,6 @@
 {
   "name" : "wmodulefortesting12ab",
-  "version" : "0.0.97",
+  "version" : "0.0.98",
   "engine" : "node >= 10.0.0",
   "description" : "Module for testing. This module is a test asset and not intended to be used with another purpose.",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
@@ -24,14 +24,14 @@
   },
   "dependencies" :
   {
-    "wmodulefortesting1" : "latest",
-    "wmodulefortesting1a" : "latest",
-    "wmodulefortesting1b" : "latest",
-    "wmodulefortesting2" : "latest",
-    "wmodulefortesting2a" : "latest",
-    "wmodulefortesting2b" : "latest",
-    "wmodulefortesting12" : "latest"
+    "wmodulefortesting1" : "gamma",
+    "wmodulefortesting1a" : "gamma",
+    "wmodulefortesting1b" : "gamma",
+    "wmodulefortesting2" : "gamma",
+    "wmodulefortesting2a" : "gamma",
+    "wmodulefortesting2b" : "gamma",
+    "wmodulefortesting12" : "gamma"
   },
-  "devDependencies" : { "wmodulefortesting12ab" : "file:.", "eslint" : "7.1.0", "wTesting" : "latest" },
+  "devDependencies" : { "wmodulefortesting12ab" : "file:.", "eslint" : "7.1.0", "wTesting" : "gamma" },
   "keywords" : [ "willbe", "test" ]
 }
