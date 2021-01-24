@@ -1,37 +1,53 @@
 {
-  "name" : "wmodulefortesting12ab",
-  "version" : "0.0.105",
-  "engine" : "node >= 10.0.0",
-  "description" : "Module for testing. This module is a test asset and not intended to be used with another purpose.",
-  "author" : "Kostiantyn Wandalen <wanalen@01.school>",
-  "license" : "MIT",
-  "contributors" :
-  [
-    { "name" : "Kostiantyn Wandalen", "email" : "wanalen@01.school" },
-    { "name" : "Kryvoruchko Dmytro", "email" : "dm.vict.kr@gmail.com" }
+  "name": "wmodulefortesting12ab",
+  "version": "0.0.106",
+  "engine": "node >= 10.0.0",
+  "description": "Module for testing. This module is a test asset and not intended to be used with another purpose.",
+  "author": "Kostiantyn Wandalen <wanalen@01.school>",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Kostiantyn Wandalen",
+      "email": "wanalen@01.school"
+    },
+    {
+      "name": "Kryvoruchko Dmytro",
+      "email": "dm.vict.kr@gmail.com"
+    }
   ],
-  "main" : "proto/wtools/testing/l4/testing12ab/Include.s",
-  "files" : [ "proto/wtools/testing/l4/testing12ab", "proto/wtools/testing/Basic.s", "out" ],
-  "scripts" : { "test" : "wtest .run 'proto/**' rapidity:-3", "docgen" : "wdocgen proto" },
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "https://github.com/Wandalen/wModuleForTesting12ab.git"
+  "main": "proto/wtools/testing/l4/testing12ab/Include.s",
+  "files": [
+    "proto/wtools/testing/l4/testing12ab",
+    "proto/wtools/testing/Basic.s",
+    "out"
+  ],
+  "scripts": {
+    "test": "wtest .run 'proto/**' rapidity:-3",
+    "docgen": "wdocgen proto"
   },
-  "bugs" :
-  {
-    "url" : "https://github.com/Wandalen/wModuleForTesting12ab/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wandalen/wModuleForTesting12ab.git"
   },
-  "dependencies" :
-  {
-    "wmodulefortesting1" : "alpha",
-    "wmodulefortesting1a" : "alpha",
-    "wmodulefortesting1b" : "alpha",
-    "wmodulefortesting2" : "alpha",
-    "wmodulefortesting2a" : "alpha",
-    "wmodulefortesting2b" : "alpha",
-    "wmodulefortesting12" : "alpha"
+  "bugs": {
+    "url": "https://github.com/Wandalen/wModuleForTesting12ab/issues"
   },
-  "devDependencies" : { "wmodulefortesting12ab" : "file:.", "eslint" : "7.1.0", "wTesting" : "alpha" },
-  "keywords" : [ "willbe", "test" ]
+  "dependencies": {
+    "wmodulefortesting1": "alpha",
+    "wmodulefortesting1a": "alpha",
+    "wmodulefortesting1b": "alpha",
+    "wmodulefortesting2": "alpha",
+    "wmodulefortesting2a": "alpha",
+    "wmodulefortesting2b": "alpha",
+    "wmodulefortesting12": "alpha"
+  },
+  "devDependencies": {
+    "eslint": "7.1.0",
+    "wTesting": "alpha",
+    "wmodulefortesting12ab": "file:."
+  },
+  "keywords": [
+    "willbe",
+    "test"
+  ]
 }
