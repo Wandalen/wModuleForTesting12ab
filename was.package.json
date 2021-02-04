@@ -1,6 +1,6 @@
 {
   "name" : "wmodulefortesting12ab",
-  "version" : "0.0.113",
+  "version" : "0.0.114",
   "engine" : "node >= 10.0.0",
   "description" : "Module for testing. This module is a test asset and not intended to be used with another purpose.",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
