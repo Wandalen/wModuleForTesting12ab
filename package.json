@@ -1,6 +1,6 @@
 {
   "name": "wmodulefortesting12ab",
-  "version": "0.0.121",
+  "version": "0.0.122",
   "engine": "node >= 10.0.0",
   "description": "Module for testing. This module is a test asset and not intended to be used with another purpose.",
   "author": "Kostiantyn Wandalen <wanalen@01.school>",
@@ -33,17 +33,17 @@
     "url": "https://github.com/Wandalen/wModuleForTesting12ab/issues"
   },
   "dependencies": {
-    "wmodulefortesting1": "alpha",
-    "wmodulefortesting1a": "alpha",
-    "wmodulefortesting1b": "alpha",
-    "wmodulefortesting2": "alpha",
-    "wmodulefortesting2a": "alpha",
-    "wmodulefortesting2b": "alpha",
-    "wmodulefortesting12": "alpha"
+    "wmodulefortesting1": "gamma",
+    "wmodulefortesting1a": "gamma",
+    "wmodulefortesting1b": "gamma",
+    "wmodulefortesting2": "gamma",
+    "wmodulefortesting2a": "gamma",
+    "wmodulefortesting2b": "gamma",
+    "wmodulefortesting12": "gamma"
   },
   "devDependencies": {
     "eslint": "7.1.0",
-    "wTesting": "alpha",
+    "wTesting": "gamma",
     "wmodulefortesting12ab": "file:."
   },
   "keywords": [
