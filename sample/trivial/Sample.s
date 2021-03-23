@@ -1,7 +1,5 @@
-if( typeof module !== 'undefined' )
-require( 'wmodulefortesting12ab' );
 
-let _ = _global_._test_;
+let _ = require( 'wmodulefortesting12ab' );
 
 var result = _.sumOfAll( 4, 4 );
 
