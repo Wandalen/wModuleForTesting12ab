@@ -3,9 +3,10 @@
 
 'use strict';
 
+let _;
 if( typeof module !== 'undefined' )
 {
-  require( '../../Basic.s' );
+  _ = require( '../../Basic.s' );
   require( 'wmodulefortesting1a' );
   require( 'wmodulefortesting1b' );
   require( 'wmodulefortesting2' );
@@ -14,35 +15,33 @@ if( typeof module !== 'undefined' )
   require( 'wmodulefortesting12' );
 }
 
-let test = _global_._test_;
-
 // --
 // Routines
 // --
 
 function sumOfAll()
 {
-  let result = test.sumOfNumbers.apply( this, arguments );
-  result += test.squareOfSum.apply( this, arguments );
-  result += test.squareRootOfSum.apply( this, arguments );
-  result += test.mulOfNumbers.apply( this, arguments );
-  result += test.squareOfMul.apply( this, arguments );
-  result += test.squareRootOfMul.apply( this, arguments );
-  result += test.divideMulOnSum.apply( this, arguments );
+  let result = _.sumOfNumbers.apply( this, arguments );
+  result += _.squareOfSum.apply( this, arguments );
+  result += _.squareRootOfSum.apply( this, arguments );
+  result += _.mulOfNumbers.apply( this, arguments );
+  result += _.squareOfMul.apply( this, arguments );
+  result += _.squareRootOfMul.apply( this, arguments );
+  result += _.divideMulOnSum.apply( this, arguments );
 
   return result;
 }
 
 //
 
-test = Object.assign( test, { sumOfAll } );
+Object.assign( _, { sumOfAll } );
 
 // --
 // export
 // --
 
 if( typeof module !== 'undefined' && module !== null )
-module[ 'exports' ] = test;
+module[ 'exports' ] = _;
 
 })();
 
