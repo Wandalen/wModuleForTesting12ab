@@ -160,6 +160,8 @@ module:
         path:
           - ../proto
           - ../proto/Integration.test.ss
+          - ../proto/node_modules
+          - ../proto/node_modules/wmodulefortesting12ab
           - ../proto/wtools
           - ../proto/wtools/testing
           - ../proto/wtools/testing/Basic.s
