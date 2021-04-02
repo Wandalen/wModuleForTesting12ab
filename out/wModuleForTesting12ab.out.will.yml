@@ -881,7 +881,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ./
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wModuleForTesting12ab.git'
       origins:
