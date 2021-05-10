@@ -9,7 +9,7 @@ npm i
 node sample/trivial/Sample.s
 ```
 
-## To add to your project
+### To add to your project
 ```
 npm add 'wmodulefortesting12ab@alpha'
 ```
