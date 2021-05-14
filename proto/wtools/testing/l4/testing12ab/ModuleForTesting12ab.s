@@ -6,7 +6,7 @@
 let _;
 if( typeof module !== 'undefined' )
 {
-  _ = require( '../../Basic.s' );
+  _ = require( '../../Common.s' );
   require( 'wmodulefortesting1a' );
   require( 'wmodulefortesting1b' );
   require( 'wmodulefortesting2' );
