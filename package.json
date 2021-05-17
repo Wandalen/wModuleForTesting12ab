@@ -1,6 +1,6 @@
 {
   "name" : "wmodulefortesting12ab",
-  "version" : "0.0.148",
+  "version" : "0.0.149",
   "engine" : "node >= 10.0.0",
   "description" : "Module for testing. This module is a test asset and not intended to be used with another purpose.",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
@@ -12,7 +12,7 @@
   ],
   "main" : "proto/node_modules/wmodulefortesting12ab",
   "files" : [ "proto/wtools/testing/l4/testing12ab", "proto/wtools/testing/Basic.s", "out", "proto/node_modules" ],
-  "scripts" : { "test" : "wtest .run 'proto/**' rapidity:-3", "docgen" : "wdocgen proto" },
+  "scripts" : {},
   "repository" :
   {
     "type" : "git",
@@ -32,6 +32,6 @@
     "wmodulefortesting2b" : "delta",
     "wmodulefortesting12" : "delta"
   },
-  "devDependencies" : { "eslint" : "7.1.0", "wTesting" : "delta" },
+  "devDependencies" : {},
   "keywords" : [ "willbe", "test" ]
 }
