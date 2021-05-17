@@ -6,7 +6,7 @@ if( typeof module !== 'undefined' )
 
   if( typeof _global_ === 'undefined' || !Object.hasOwnProperty.call( _global_, 'wBase' ) )
   {
-    let toolsPath = './l1/Include.s';
+    let toolsPath = '../../node_modules/wmodulefortesting1.s';
     let toolsExternal = 0;
     try
     {

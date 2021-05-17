@@ -12,7 +12,7 @@
   ],
   "main" : "proto/node_modules/wmodulefortesting12ab",
   "files" : [ "proto/wtools/testing/l4/testing12ab", "proto/wtools/testing/Basic.s", "out", "proto/node_modules" ],
-  "scripts" : { "test" : "wtest .run 'proto/**' rapidity:-3", "docgen" : "wdocgen proto" },
+  "scripts" : {},
   "repository" :
   {
     "type" : "git",
@@ -32,6 +32,6 @@
     "wmodulefortesting2b" : "",
     "wmodulefortesting12" : ""
   },
-  "devDependencies" : { "wTesting" : "", "eslint" : "7.1.0" },
+  "devDependencies" : {},
   "keywords" : [ "willbe", "test" ]
 }
