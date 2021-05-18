@@ -1,6 +1,6 @@
 {
   "name" : "wmodulefortesting12ab",
-  "version" : "0.0.149",
+  "version" : "0.0.150",
   "engine" : "node >= 10.0.0",
   "description" : "Module for testing. This module is a test asset and not intended to be used with another purpose.",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
@@ -24,13 +24,13 @@
   },
   "dependencies" :
   {
-    "wmodulefortesting1" : "delta",
-    "wmodulefortesting1a" : "delta",
-    "wmodulefortesting1b" : "delta",
-    "wmodulefortesting2" : "delta",
-    "wmodulefortesting2a" : "delta",
-    "wmodulefortesting2b" : "delta",
-    "wmodulefortesting12" : "delta"
+    "wmodulefortesting1" : "gamma",
+    "wmodulefortesting1a" : "gamma",
+    "wmodulefortesting1b" : "gamma",
+    "wmodulefortesting2" : "gamma",
+    "wmodulefortesting2a" : "gamma",
+    "wmodulefortesting2b" : "gamma",
+    "wmodulefortesting12" : "gamma"
   },
   "devDependencies" : {},
   "keywords" : [ "willbe", "test" ]
