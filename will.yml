@@ -133,7 +133,7 @@ path:
       raw: compiled
       content: prime
   entry.proto.no.tests:
-    path: proto/wtools/testing/l4/testing12ab/Include.s
+    path: proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s
     criterion:
       tests: no.tests
   entry.proto.only.tests:
@@ -141,7 +141,7 @@ path:
     criterion:
       tests: only.tests
   entry.out.raw.debug:
-    path: '{path::out.*=1}/proto/wtools/testing/l4/testing12ab/Include.s'
+    path: '{path::out.*=1}/proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s'
     criterion:
       debug:
         - debug
@@ -157,7 +157,7 @@ path:
       raw: compiled
       content: prime
   npm.proto.entry:
-    - proto/wtools/testing/l4/testing12ab/Include.s
+    - proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s
     - proto/node_modules/wmodulefortesting12ab
 reflector:
   reflect.proto:
