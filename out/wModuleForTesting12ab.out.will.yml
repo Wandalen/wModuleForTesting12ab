@@ -3,8 +3,8 @@ root:
   - wModuleForTesting12ab.out
 consistency:
   ../will.yml: &ref_0
-    hash: 732cb2aa3bb4537a8978c21256cdd6a5
-    size: 6887
+    hash: fcb1524c6adeb03dde40b00c35afdf3e
+    size: 6926
 module:
   wModuleForTesting12ab.out:
     about:
@@ -104,7 +104,7 @@ module:
       entry.proto.no.tests:
         criterion:
           tests: no.tests
-        path: ../proto/wtools/testing/l4/testing12ab/Include.s
+        path: ../proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s
       entry.proto.only.tests:
         criterion:
           tests: only.tests
@@ -114,13 +114,15 @@ module:
           debug: debug
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/wtools/testing/l4/testing12ab/Include.s'
+        path: >-
+          {path::out.*=1}/proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s
       entry.out.raw.debug.release:
         criterion:
           debug: release
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/wtools/testing/l4/testing12ab/Include.s'
+        path: >-
+          {path::out.*=1}/proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s
       entry.out.compiled.debug.debug:
         criterion:
           debug: debug
@@ -135,7 +137,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - ../proto/wtools/testing/l4/testing12ab/Include.s
+          - ../proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s
           - ../proto/node_modules/wmodulefortesting12ab
       exported.dir.proto.export:
         criterion:
@@ -874,7 +876,7 @@ module:
       entry.proto.no.tests:
         criterion:
           tests: no.tests
-        path: proto/wtools/testing/l4/testing12ab/Include.s
+        path: proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s
       entry.proto.only.tests:
         criterion:
           tests: only.tests
@@ -884,13 +886,15 @@ module:
           debug: debug
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/wtools/testing/l4/testing12ab/Include.s'
+        path: >-
+          {path::out.*=1}/proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s
       entry.out.raw.debug.release:
         criterion:
           debug: release
           raw: raw
           content: prime
-        path: '{path::out.*=1}/proto/wtools/testing/l4/testing12ab/Include.s'
+        path: >-
+          {path::out.*=1}/proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s
       entry.out.compiled.debug.debug:
         criterion:
           debug: debug
@@ -905,7 +909,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - proto/wtools/testing/l4/testing12ab/Include.s
+          - proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s
           - proto/node_modules/wmodulefortesting12ab
     submodule:
       wmodulefortesting1@gamma:
@@ -1468,5 +1472,5 @@ module:
           - 'build::npm'
     consistency:
       ../will.yml:
-        hash: 732cb2aa3bb4537a8978c21256cdd6a5
-        size: 6887
+        hash: fcb1524c6adeb03dde40b00c35afdf3e
+        size: 6926
