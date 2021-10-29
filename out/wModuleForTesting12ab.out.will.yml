@@ -3,8 +3,8 @@ root:
   - wModuleForTesting12ab.out
 consistency:
   ../will.yml: &ref_0
-    hash: fcb1524c6adeb03dde40b00c35afdf3e
-    size: 6926
+    hash: 28aa724e7966ee1373e8b74d21f9ce0e
+    size: 6785
 module:
   wModuleForTesting12ab.out:
     about:
@@ -370,9 +370,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -708,12 +705,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -1070,9 +1061,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -1409,12 +1397,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -1472,5 +1454,5 @@ module:
           - 'build::npm'
     consistency:
       ../will.yml:
-        hash: fcb1524c6adeb03dde40b00c35afdf3e
-        size: 6926
+        hash: 28aa724e7966ee1373e8b74d21f9ce0e
+        size: 6785
