@@ -280,24 +280,24 @@ step:
       content: prime
       debug: release
 submodule:
-  wmodulefortesting1@gamma:
-    path: 'npm:///wmodulefortesting1@gamma'
+  wModuleForTesting1:
+    path: 'npm:///wmodulefortesting1!gamma'
     enabled: 0
-  wmodulefortesting1a@gamma:
-    path: 'npm:///wmodulefortesting1a@gamma'
+  wModuleForTesting1a:
+    path: 'npm:///wmodulefortesting1a!gamma'
     enabled: 0
-  wmodulefortesting1b@gamma:
-    path: 'npm:///wmodulefortesting1b@gamma'
+  wModuleForTesting1b:
+    path: 'npm:///wmodulefortesting1b!gamma'
     enabled: 0
-  wmodulefortesting2@gamma:
-    path: 'npm:///wmodulefortesting2@gamma'
+  wModuleForTesting2:
+    path: 'npm:///wmodulefortesting2!gamma'
     enabled: 0
-  wmodulefortesting2a@gamma:
-    path: 'npm:///wmodulefortesting2a@gamma'
+  wModuleForTesting2a:
+    path: 'npm:///wmodulefortesting2a!gamma'
     enabled: 0
-  wmodulefortesting2b@gamma:
-    path: 'npm:///wmodulefortesting2b@gamma'
+  wModuleForTesting2b:
+    path: 'npm:///wmodulefortesting2b!gamma'
     enabled: 0
-  wmodulefortesting12@gamma:
-    path: 'npm:///wmodulefortesting12@gamma'
+  wModuleForTesting12:
+    path: 'npm:///wmodulefortesting12!gamma'
     enabled: 0
