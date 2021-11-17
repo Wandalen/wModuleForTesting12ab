@@ -3,8 +3,8 @@ root:
   - wModuleForTesting12ab.out
 consistency:
   ../will.yml: &ref_0
-    hash: 28aa724e7966ee1373e8b74d21f9ce0e
-    size: 6785
+    hash: e651857c527fc2352576e3ff7f6065d8
+    size: 6743
 module:
   wModuleForTesting12ab.out:
     about:
@@ -161,32 +161,32 @@ module:
           - ../proto/wtools/testing/l4/testing12ab
           - ../proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s
     submodule:
-      wmodulefortesting1@gamma:
-        path: 'npm:///wmodulefortesting1@gamma'
+      wModuleForTesting1:
+        path: 'npm:///wmodulefortesting1!gamma'
         autoExporting: 0
         enabled: 0
-      wmodulefortesting1a@gamma:
-        path: 'npm:///wmodulefortesting1a@gamma'
+      wModuleForTesting1a:
+        path: 'npm:///wmodulefortesting1a!gamma'
         autoExporting: 0
         enabled: 0
-      wmodulefortesting1b@gamma:
-        path: 'npm:///wmodulefortesting1b@gamma'
+      wModuleForTesting1b:
+        path: 'npm:///wmodulefortesting1b!gamma'
         autoExporting: 0
         enabled: 0
-      wmodulefortesting2@gamma:
-        path: 'npm:///wmodulefortesting2@gamma'
+      wModuleForTesting2:
+        path: 'npm:///wmodulefortesting2!gamma'
         autoExporting: 0
         enabled: 0
-      wmodulefortesting2a@gamma:
-        path: 'npm:///wmodulefortesting2a@gamma'
+      wModuleForTesting2a:
+        path: 'npm:///wmodulefortesting2a!gamma'
         autoExporting: 0
         enabled: 0
-      wmodulefortesting2b@gamma:
-        path: 'npm:///wmodulefortesting2b@gamma'
+      wModuleForTesting2b:
+        path: 'npm:///wmodulefortesting2b!gamma'
         autoExporting: 0
         enabled: 0
-      wmodulefortesting12@gamma:
-        path: 'npm:///wmodulefortesting12@gamma'
+      wModuleForTesting12:
+        path: 'npm:///wmodulefortesting12!gamma'
         autoExporting: 0
         enabled: 0
     reflector:
@@ -903,32 +903,32 @@ module:
           - proto/wtools/testing/l4/testing12ab/ModuleForTesting12ab.s
           - proto/node_modules/wmodulefortesting12ab
     submodule:
-      wmodulefortesting1@gamma:
-        path: 'npm:///wmodulefortesting1@gamma'
+      wModuleForTesting1:
+        path: 'npm:///wmodulefortesting1!gamma'
         autoExporting: 0
         enabled: 0
-      wmodulefortesting1a@gamma:
-        path: 'npm:///wmodulefortesting1a@gamma'
+      wModuleForTesting1a:
+        path: 'npm:///wmodulefortesting1a!gamma'
         autoExporting: 0
         enabled: 0
-      wmodulefortesting1b@gamma:
-        path: 'npm:///wmodulefortesting1b@gamma'
+      wModuleForTesting1b:
+        path: 'npm:///wmodulefortesting1b!gamma'
         autoExporting: 0
         enabled: 0
-      wmodulefortesting2@gamma:
-        path: 'npm:///wmodulefortesting2@gamma'
+      wModuleForTesting2:
+        path: 'npm:///wmodulefortesting2!gamma'
         autoExporting: 0
         enabled: 0
-      wmodulefortesting2a@gamma:
-        path: 'npm:///wmodulefortesting2a@gamma'
+      wModuleForTesting2a:
+        path: 'npm:///wmodulefortesting2a!gamma'
         autoExporting: 0
         enabled: 0
-      wmodulefortesting2b@gamma:
-        path: 'npm:///wmodulefortesting2b@gamma'
+      wModuleForTesting2b:
+        path: 'npm:///wmodulefortesting2b!gamma'
         autoExporting: 0
         enabled: 0
-      wmodulefortesting12@gamma:
-        path: 'npm:///wmodulefortesting12@gamma'
+      wModuleForTesting12:
+        path: 'npm:///wmodulefortesting12!gamma'
         autoExporting: 0
         enabled: 0
     reflector:
@@ -1454,5 +1454,5 @@ module:
           - 'build::npm'
     consistency:
       ../will.yml:
-        hash: 28aa724e7966ee1373e8b74d21f9ce0e
-        size: 6785
+        hash: e651857c527fc2352576e3ff7f6065d8
+        size: 6743
