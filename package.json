@@ -1,6 +1,6 @@
 {
   "name": "wmodulefortesting12ab",
-  "version": "0.0.178",
+  "version": "0.0.179",
   "engine": "node >= 10.0.0",
   "description": "Module for testing. This module is a test asset and not intended to be used with another purpose.",
   "author": "Kostiantyn Wandalen <wandalen@obox.systems>",
@@ -32,13 +32,13 @@
     "url": "https://github.com/Wandalen/wModuleForTesting12ab/issues"
   },
   "dependencies": {
-    "wmodulefortesting2b": "delta",
-    "wmodulefortesting2a": "delta",
-    "wmodulefortesting2": "delta",
-    "wmodulefortesting1b": "delta",
-    "wmodulefortesting1a": "delta",
-    "wmodulefortesting12": "delta",
-    "wmodulefortesting1": "delta"
+    "wmodulefortesting2b": "alpha",
+    "wmodulefortesting2a": "alpha",
+    "wmodulefortesting2": "alpha",
+    "wmodulefortesting1b": "alpha",
+    "wmodulefortesting1a": "alpha",
+    "wmodulefortesting12": "alpha",
+    "wmodulefortesting1": "alpha"
   },
   "devDependencies": {},
   "keywords": [
